@@ -17,10 +17,10 @@ header{
     background-color: #2D25A0;
     color: white;
     display: flex;
-    transition: background-color 4s;
+    transition: background-color 2s;
 }
 header:hover{
-    background-color: #0fa105;
+    background-color: #000100;
 }
 .half-part{
     margin: 0;
@@ -137,9 +137,9 @@ footer{
 }
 
 /*__________________________________ Media Query_____________________________- */
-@media (max_width: 480) {
-    header{
-        width: 100%;
-        flex-direction: column;
+@media (max_width: 668px) {
+    .all-blogs{
+        grid-template-columns: repeat(1, 1fr);
     }
+        
 }
