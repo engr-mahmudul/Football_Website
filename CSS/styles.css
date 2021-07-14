@@ -54,9 +54,7 @@ h1{
 }
 /*______________________________________ Blog section _______________________________________ */
 
-.contianer{
-    background-color: tomato;
-}
+
 .all-blogs{
   
     margin-top: 47px;
@@ -73,13 +71,52 @@ h1{
    
     
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    
+    background-color: rgba(255, 255, 255, 0.69);
     padding: 15px;
     
 }
 .blog img{
     width: 95%;
+    padding-left: 5px;
 }
+/*_________________________________ Legend section ________________________________________________ */
 
+.legnend{
+    background-color: rgba(122, 68, 68, 0.457);
+}
 /*___________________________________ Footer Style ________________________________-- */
+footer{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+   
+}
+.footer-box{
+   
+    height: 150px;
+    padding-bottom: 63px;
+    padding-top: 30px;
+    
+}
+.footer-box img{
+    width: 262px;
+    height: 110px;
+    
+}
+/* Icon Color   */
+.social-network{
+    position: relative;
+    left: 90px;
+   
+}
+.social-network a{
+    background-color: rgba(128, 128, 128, 0.368);
+    margin: 10px;
+    border-radius: 50px;
+    
+    
+}
+.new_padding{
+    margin: 5px;
+}
 
