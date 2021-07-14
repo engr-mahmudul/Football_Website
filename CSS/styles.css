@@ -1,0 +1,72 @@
+/* ___________________________Fonts______________________________________ */
+/* Popins font weight 700 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+/* ________________________________Common styles_________________________  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/*__________________________ Header section Style __________________________ */
+header{
+    background-color: #2D25A0;
+    color: white;
+    display: flex;
+}
+.half-part{
+    margin: 0;
+    width: 50%;
+    align-items: center;
+}
+h1{
+    font-size: 64px;
+}
+.text-field{
+    margin-top: 207 px;
+    margin-left: 156px;
+}
+.button-class{
+    text-decoration: none;
+    background-color:#E02C6D;
+    font-weight: 500;
+    padding: 10px 24px;
+;
+}
+.half-part img{
+    
+ 
+    width: 556.01px;
+    height: 438px;
+    
+}
+/*______________________________________ Blog section _______________________________________ */
+
+
+.all-blogs{
+    margin-top: 47px;
+    margin-left: 180px;
+    margin-right: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-column-gap: 30px;
+    grid-row-gap: 27px; 
+    
+}
+.blog{
+    width: 330px;
+    height: 456px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-top: 27px;
+    padding: 15px;
+    
+}
+.blog img{
+    width: 300px;
+    Height: 256px;
+}
